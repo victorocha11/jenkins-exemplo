@@ -1,0 +1,27 @@
+<project>
+  <!-- model version is always 4.0.0 for Maven 2.x POMs -->
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- project coordinates, i.e. a group of values which
+       uniquely identify this project -->
+
+  <groupId>com.software.senai</groupId>
+  <artifactId>teste</artifactId>
+  <version>2.0</version>
+
+
+  <dependencies>
+    <dependency>
+
+
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+
+      <!-- this dependency is only used for running and compiling tests -->
+
+      <scope>test</scope>
+
+    </dependency>
+  </dependencies>
+</project>
